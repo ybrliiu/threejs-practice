@@ -1,0 +1,25 @@
+{
+  "name": "threejs-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "concurrently \"browser-sync start --server -w\" \" webpack --watch\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.106.2",
+    "three.js": "^0.77.1"
+  },
+  "devDependencies": {
+    "@types/three": "^0.103.2",
+    "browser-sync": "^2.26.7",
+    "concurrently": "^4.1.1",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
